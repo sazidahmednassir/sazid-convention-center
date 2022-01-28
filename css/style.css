@@ -1,0 +1,142 @@
+ html {
+    overflow: scroll;
+    overflow-x: hidden;
+    }
+ ::-webkit-scrollbar {
+    width: 0px; 
+
+ }
+    
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+    } */
+
+
+
+/* precious star */
+
+    
+   
+   
+    
+
+/* SLIDER START */
+
+.carousel-item{
+   
+    
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom:0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.carousel-caption{
+    bottom: 100px;
+   
+} 
+
+
+.carousel-caption h5{
+    font-size: 48px;
+    font-weight: 600;
+} 
+
+span{
+    display: block;
+}
+
+.carousel-caption p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.slider-btn{
+    margin-top: 30px;
+ 
+}
+
+.slider-bg{
+    background-color: #FFFFFF;
+    color: #3F87F5;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* PRICING START */
+
+.price{
+    background: #FFFFFF;
+    color: #231D4F;
+}
+
+.price h5{
+    text-align: start;
+}
+
+.price p{
+    text-align: start;
+}
+
+.price ul{
+    list-style: none;
+    margin: 0;
+    padding: 0 0 50px 0;
+}
+
+
+.special-button{
+    position:absolute; 
+    left: 85%;
+    bottom: 378px;
+    color: white;
+    background: red;
+    border-radius: 5px;
+}
+
+
+.card-button{
+    width: 207px;
+    height: 45px;
+    background-color: #f496d238;
+    border-radius: 15px;
+    color:#3F87F5;
+   
+
+}
+
+.special-price{
+    background-color: #3F87F5;
+    color: white;
+    position: relative;
+    bottom: 15px;
+
+}
+
+.special-price-button{
+    background-color: white;
+    color: #3F87F5;
+    width: 207px;
+    height: 45px;
+}
+
+
+/* reviews start */
+.filled{
+    color:#FF9529;
+}
+
+.half-filled{
+    color:#FF9529;
+}
